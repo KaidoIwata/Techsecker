@@ -4,10 +4,10 @@ from datetime import datetime
 import pytz
 
 # シリアルポートの設定
-ser = serial.Serial('/dev/tty.usbserial-515276548D', 115200, timeout=1)
+ser = serial.Serial('/dev/tty.usbserial-◯◯◯', 115200, timeout=1)
 
 # サーバーのURL
-url = "https://dokushokanjobun-techseeker-api.shintaro.tech/capture/test/items/sensor"
+url = "サーバーURL"
 
 # HTTPヘッダーを設定する
 headers = {
